@@ -1,0 +1,174 @@
+body{
+    width: 1900px;
+    font-size: 16px;
+}
+.space{
+    padding: 0;
+    margin: 0;
+    height: 287px;
+}
+/* header */
+
+#logo{
+    height: 70px;
+    width: auto;
+    float: left;
+    padding: 5px ;
+    margin-right:50px;
+
+}
+#nav li{
+    display: inline-block;
+    list-style: none;
+    line-height: 70px;
+    font-size: 24px;
+    padding: 0px 20px ;
+}
+
+#hd_right{
+    float: right;
+    line-height: 70px;
+ 
+}
+#hd_right > img{
+    padding: 0px 20px;
+    /* background-color: black; */
+}
+/* main */
+
+.main_1slide{
+display: block;
+position: relative;
+}
+
+#sl_1{
+    width: 1900px;
+    height: 850px;
+}
+ 
+.main_2{
+    text-align: center;
+    margin: 160px 0px;
+}
+.main_2 img{
+    width: 669px;
+    padding: 51px;
+    height: 417px;
+
+}
+.main_3 img{
+    width: 1900px;
+    height: 840px;
+}
+.m3_top{
+    background-color: #fff;
+    width: 475px;
+    height: 70px;
+    position: absolute;
+}
+.m3_top1{left: 0px ; }
+.m3_top2{left: 475px;background-color: black;}
+.m3_top3{left: 950px;}
+.m3_top4{left: 1425px  ;background-color: black;}
+
+.m3_none{
+    display: none;
+}
+.main_4{
+    height: 600px;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.m4_left{
+    text-align: center;
+    width: 30%;
+    float: left;
+    margin-top:260px;
+}
+
+.m4_center{
+    float: left;
+}
+.m4_center img{
+    width: 700px;
+    height: 600px;
+    border-radius: 60px;
+    margin: 0 auto;
+    
+}
+.m4_right{
+    width: 30%;
+    height: 600px;
+    float: right;
+    margin-top: 70px;
+
+}
+.m4_right > div{
+    height: 110px;
+    padding: 5px;
+    margin-right: 350px;
+    text-align: left;
+    
+}
+.barrr{
+    width: 250px;
+    height: 3px;
+    background-color: rgba(59, 59, 59, 0.685);
+    border-radius: 5px ;
+}
+
+
+/* footer */
+.footer_wrapper{
+    width: 1900px;
+    height: 400px;
+    background-color: rgb(46, 46, 46);
+    color: white ;
+}
+.footers{
+    display: inline-block;
+    width: 13%;
+    height: 280px;
+    margin: 30px 0;
+    padding: 30px;
+    vertical-align: top;
+    border-left: 2px solid grey;
+}
+.footer_1{
+    width: 24%;
+    padding: 30px 0 0 100px;
+}
+
+p.sns{
+    text-align: center;
+    line-height: 46px;
+}
+.icons{
+    text-align: center;
+}
+span img{
+    width: 46px;
+    height: auto;
+    margin: 0 10px;
+}
+.more{
+    background-color: rgb(46, 46, 46);
+    border-top: 2px solid grey;
+    height: 100px;
+    width: 1900px;
+    text-align: center;
+}
+.more div{
+    background-color: #fff;
+    width: 180px;
+    height: 37px;
+    display: inline-block;
+    margin: 30px;
+}
+.more div a {
+    color: black;
+    text-decoration: none;
+    vertical-align: middle;
+}
