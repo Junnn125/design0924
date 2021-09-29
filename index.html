@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="kr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/mainpage.css">
+</head>
+<body>
+    
+    <header>
+        <div class="hd_left">
+            <img src="images/logo.png" alt="LOGO" id="logo">
+            <ul id="nav">
+                <li> 브랜드 </li>
+                <li> 스토어 </li>
+                <li> 고객지원 </li>
+                <li> MY </li>
+                
+                <!-- <div class="full_menu">
+                    <div class="hidden_menu">
+                        <ul>
+                            <li>브랜드 가치관</li>
+                            <li>대표님 말씀</li>
+                            <li>어쩌구</li>
+                            <li>저쩌구</li>
+                        </ul>
+                        <ul>
+                            <li>TV</li>
+                            <li>에어컨</li>
+                            <li>스피커</li>
+                            <li>공기청정기</li>
+                        </ul>
+                        <ul>
+                            <li>제품 사용지원</li>
+                            <li>서비스 상담</li>
+                            <li>Q n A</li>
+                            <li>오시는 길</li>
+                        </ul>
+                        <ul>
+                            <li>아이디 찾기</li>
+                            <li>회원가입</li>
+                        </ul>
+                    </div>
+                </div> -->
+                
+                <div id="hd_right">
+                    <img src="images/r_icon (1).png" alt="로그인">
+                    <img src="images/r_icon (2).png" alt="장바구니">
+                    <img src="images/r_icon (3).png" alt="검색">
+                </div>
+            </ul>
+        </div>
+
+
+    </header>
+
+    <div id="wrapper">
+        <div class="main_1slide">
+
+            <div>
+                <img class="sl_1 fade" src="images/제품 사진/slide_1.png" alt="메인 슬라이드 이미지" >
+                <img class="sl_1 fade" src="images/제품 사진/slide_1.png" alt="메인 슬라이드 이미지2" >
+                <img class="sl_1 fade" src="images/제품 사진/slide_1.png" alt="메인 슬라이드 이미지3" >
+                <img class="sl_1 fade" src="images/제품 사진/slide_1.png" alt="메인 슬라이드 이미지4" >
+            </div>
+            <a href="#" class="prev" onclick="nextslide(-1)">&#10094;</a>
+            <a href="#" class="next" onclick="nextslide(1)">&#10095;</a>
+            <div class="boxs">
+                <div href="#" class="box" onclick="point(1)"></div>
+                <div href="#" class="box" onclick="point(2)"></div>
+                <div href="#" class="box" onclick="point(3)"></div>
+                <div href="#" class="box" onclick="point(4)"></div>
+            </div>    
+        </div>
+    </div>
+
+
+        <div class="main_2">
+            <div>
+                <p class="coment">가전제품 설명</p>
+            </div>
+            <div>
+                <figure>
+                    <img src="images/제품 사진/main/art_cabinet_decoration_design_frames_furniture_home_home_decor-1551325.jpg" alt="" class="item">
+                    <figcaption> 한 줄 설명 이정도 가전제품 장점 설명 </figcaption>
+                </figure>
+                <figure>
+                    <img src="images/제품 사진/main/furniture-room-interior-design-indoors-electronics-wall-living-room-entertainment-center-bedroom.jpg" alt="" class="item">
+                    <figcaption> 한 줄 설명 이정도 가전제품 장점 설명 </figcaption>
+                </figure>
+                <figure>
+                    <img src="images/제품 사진/main/LG_whisen_tower_airconditional_02_210219.jpg" alt="" class="item">
+                    <figcaption> 한 줄 설명 이정도 가전제품 장점 설명 </figcaption>
+                </figure>
+                <figure>
+                    <img src="images/제품 사진/main/PS21020100245.jpg" alt="" class="item">
+                    <figcaption> 한 줄 설명 이정도 가전제품 장점 설명 </figcaption>
+                </figure>
+                
+            </div>
+            <div class="space"></div> 
+        </div>
+        <div class="main_3">
+            <div onmouseover="point_2(1)" class="m3_top m3_top1">인테리어 설명 예시</div>
+            <div onmouseover="point_2(2)" class="m3_top m3_top2">인테리어 설명 예시</div>
+            <div onmouseover="point_2(3)" class="m3_top m3_top3">인테리어 설명 예시</div>
+            <div onmouseover="point_2(4)" class="m3_top m3_top4">인테리어 설명 예시</div>
+            <img class="sl_3 fade"  src="images/제품 사진/living-room-1872192.jpg" alt="" class="click_slide">
+            <img class="sl_3 fade"  src="images/제품 사진/speakers-3747617.jpg" alt="" class="click_slide">
+            <img class="sl_3 fade"  src="images/제품 사진/furniture-998265.jpg" alt="" class="click_slide">
+            <img class="sl_3 fade"  src="images/제품 사진/computer-414059.jpg" alt="" class="click_slide">
+            
+        </div>
+        <div class="space"></div>        
+        <div class="main_4">
+            <div class="m4_left">
+                <h1>고객지원</h1>
+                <p>설명 길이가 너무 짧은데 길게<br>
+                    두 세줄 정도는 있어야 길게 길게 길게<br>
+                    허전하지 않지 않을까 길이가 더 길게<br>
+                </p>
+            </div>
+            <div class="m4_center">
+                <img src="images/제품 사진/34311_64183_3850.jpg" alt="" class="고객지원">
+            </div>
+            <div class="m4_right">
+
+                <div>
+                    <div class="barrr"></div>
+                    <h4>01 고객지원</h4>
+                    <p>
+                        <a href="" class="m4_more">더 알아보기</a>
+                    </p>
+                </div>
+                <div>
+                    <div class="barrr"></div>
+                    <h4>02 제품 사용 지원</h4>
+                    <p>
+                        <a href="" class="m4_more">더 알아보기</a>
+                    </p>
+                </div>
+                <div>
+                    <div class="barrr"></div>
+                    <h4>03 서비스 상담</h4>
+                    <p>
+                        <a href="" class="m4_more">더 알아보기</a>
+                    </p>
+                </div>
+                <div>
+                    <div class="barrr"></div>
+                    <h4>04 오시는 길</h4>
+                    <p>
+                        <a href="" class="m4_more">더 알아보기</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>    
+    <div class="space"></div>   
+    
+    <div class="footer">
+        <div class="footer_wrapper">
+            <div class="footer_1 footers">
+                <div class="footer_1wrapper">
+                    <p>대표이사 : 김갑환<br>
+                        우) 12321 서울특별시 아즈카반 1403호<br>
+                        Copyright ⓒ 2021, 회사이름 Co.,Ltd<br>
+                        TEL : 010 5545 4554<br>
+                        FAX : 02 5445 4545<br>
+                        e-mail : asasss@sdasss.com<br>
+                    </p>
+
+                    <div class="icons">
+                        <span class="icon"><img src="images/기타 사진/ICON (1).jpg"></span>
+                        <span class="icon"><img src="images/기타 사진/ICON (1).png"></span>
+                        <span class="icon"><img src="images/기타 사진/ICON (2).png"></span>
+                    </div>
+                </div>
+            </div>
+            <div class="footer_2 footers">
+                <p>
+                    브랜드 <br>
+                    <br>
+                    <br>
+                    <br>
+                    &nbsp&nbsp&nbsp 브랜드 가치관<br>
+                    &nbsp&nbsp&nbsp 대표님 말씀<br>
+                    &nbsp&nbsp&nbsp 어쩌구<br>
+                    &nbsp&nbsp&nbsp 저쩌구<br>
+                </p>
+            </div>
+            <div class="footer_3 footers">
+                <p>
+                    스토어  
+                    <br>
+                    <br>
+                    <br>
+
+                    &nbsp&nbsp&nbsp TV 부분<br>
+                    &nbsp&nbsp&nbsp 에어컨 부분<br>
+                    &nbsp&nbsp&nbsp 스피커 부분<br>
+                    &nbsp&nbsp&nbsp 공기청정기 부분<br>
+
+                </p>
+            </div>
+            <div class="footer_4 footers">
+                <p>
+                    고객지원<br>
+                    <br>
+                    <br>
+                    <br>
+
+                    &nbsp&nbsp&nbsp 제품 사용지원<br>
+                    &nbsp&nbsp&nbsp 서비스 상담<br>
+                    &nbsp&nbsp&nbsp QNA<br>
+                    &nbsp&nbsp&nbsp 오시는 길<br>
+                </p>
+            </div>
+            <div class="footer_5 footers">
+                <p>
+                    MY<br>
+                    <br>
+                    <br>
+                    <br>
+
+                    &nbsp&nbsp&nbsp 아이디 찾기<br>
+                    &nbsp&nbsp&nbsp 회원가입<br>
+                </p>
+            </div>
+        </div>
+        <div class="more">
+            <div>
+                <a href="">이용약관</a>
+            </div>
+            <div>
+                <a href="">개인정보 처리방침</a>
+            </div>
+        </div>
+        <div class="bottom_icons">
+
+        </div>
+    </div class="footer">
+    </body>
+    <script src="js/main.js"></script>
+</html>
